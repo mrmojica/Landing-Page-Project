@@ -25,6 +25,9 @@ div {
 
 .top-navigation{
 	background-color:#fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .top-navigation > .content{
@@ -115,4 +118,49 @@ button {
 .introduction button:hover{
 	background-color:#C44B23;
 	cursor: pointer;
+}
+
+
+/*---Cases---*/
+
+.cases {
+    background-color: #fff;
+    overflow: hidden; /*hides content that overflows*/
+    padding-bottom: 5rem;
+}
+.cases .content {
+    margin-top: 7.875rem;
+    
+    color: #1d1e21;
+    text-align: center;
+}
+
+
+.cases .devices{
+     width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+
+
+}
+
+.cases .container{
+	/* sort divs in a row*/
+    display:flex;
+    flex-direction:row;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
 }
