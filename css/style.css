@@ -113,6 +113,10 @@ margin-top:15px;
     font-size: 3.125rem;
 }
 
+.introduction .content{
+    padding-top:17.5rem; /* added this code to center intro content/ after correcting previous white space problem */
+}
+
 .introduction h3 {
     margin-top: 1rem;
     font-size: 1.563rem;
